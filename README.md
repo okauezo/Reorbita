@@ -12,6 +12,8 @@ API REST de manutenção orbital preditiva construída em Java 21 com Spring Boo
 | Kauê Pires | RM554403 |
 | Higor Batista | RM558907 |
 
+**Repositório:** https://github.com/okauezo/Reorbita
+
 ## Motivação
 
 Mais de 60% dos satélites lançados na última década ainda estarão em órbita em 2035, mas a maioria deixará de funcionar muito antes disso — por falhas pontuais, baterias degradadas ou combustível esgotado. Cada satélite é um equipamento de milhões de dólares que vira lixo porque ninguém pode subir lá para apertar um parafuso. Construímos um cemitério a 400 km de altura.
