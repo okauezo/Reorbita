@@ -2,6 +2,16 @@
 
 API REST de manutenção orbital preditiva construída em Java 21 com Spring Boot 3, Spring Data JPA e banco H2. O projeto materializa, em software, os três pilares do ecossistema REORBITA proposto para a Global Solution.
 
+## Integrantes do grupo
+
+| Nome | RM |
+| --- | --- |
+| Ricardo Di Tilia | RM555155 |
+| Bento Rangel | RM559124 |
+| Eric Yuji | RM554869 |
+| Kauê Pires | RM554403 |
+| Higor Batista | RM558907 |
+
 ## Motivação
 
 Mais de 60% dos satélites lançados na última década ainda estarão em órbita em 2035, mas a maioria deixará de funcionar muito antes disso — por falhas pontuais, baterias degradadas ou combustível esgotado. Cada satélite é um equipamento de milhões de dólares que vira lixo porque ninguém pode subir lá para apertar um parafuso. Construímos um cemitério a 400 km de altura.
@@ -67,21 +77,15 @@ src/main/java/com/reorbita/
 
 ## Como executar
 
-Pré-requisito: JDK 21 ou superior.
+Pré-requisito: JDK 21.
 
-Pelo terminal, com o Maven Wrapper:
+Pelo IntelliJ IDEA: abra a pasta do projeto (o `pom.xml` é reconhecido como projeto Maven), defina o SDK do projeto como JDK 21 e execute a classe `ReorbitaApplication`.
 
-```bash
-./mvnw spring-boot:run
-```
-
-No Windows:
+Pelo terminal, com o Maven instalado:
 
 ```bash
-mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
-
-Ou abra a pasta no IntelliJ IDEA e rode a classe `ReorbitaApplication`.
 
 A aplicação sobe em `http://localhost:8080`. O banco H2 em memória é criado e populado automaticamente pelo seed a cada inicialização. Recursos úteis:
 

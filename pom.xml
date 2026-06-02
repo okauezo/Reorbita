@@ -17,6 +17,29 @@
     <name>reorbita</name>
     <description>Plataforma de Inteligencia Orbital REORBITA</description>
 
+    <developers>
+        <developer>
+            <name>Ricardo Di Tilia</name>
+            <id>RM555155</id>
+        </developer>
+        <developer>
+            <name>Bento Rangel</name>
+            <id>RM559124</id>
+        </developer>
+        <developer>
+            <name>Eric Yuji</name>
+            <id>RM554869</id>
+        </developer>
+        <developer>
+            <name>Kaue Pires</name>
+            <id>RM554403</id>
+        </developer>
+        <developer>
+            <name>Higor Batista</name>
+            <id>RM558907</id>
+        </developer>
+    </developers>
+
     <properties>
         <java.version>21</java.version>
     </properties>

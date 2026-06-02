@@ -13,6 +13,8 @@ public class OpenApiConfig {
         return new OpenAPI().info(new Info()
                 .title("REORBITA - Plataforma de Inteligencia Orbital")
                 .version("1.0.0")
-                .description("API de manutencao orbital preditiva da REORBITA."));
+                .description("API de manutencao orbital preditiva da REORBITA. "
+                        + "Integrantes: Ricardo Di Tilia (RM555155), Bento Rangel (RM559124), "
+                        + "Eric Yuji (RM554869), Kaue Pires (RM554403), Higor Batista (RM558907)."));
     }
 }
